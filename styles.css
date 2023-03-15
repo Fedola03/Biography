@@ -3,11 +3,7 @@
 }
 
 body {
-    background-image: url(Black\ Ball.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
     font-family: 'Raleway', sans-serif;
-    color: white;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -28,7 +24,7 @@ body {
     top: 0;
     display: flex;
     justify-content: center;
-    background-color: #0f0f0f;
+    background-color: whitesmoke;
 }
 
 #navbar {
@@ -48,7 +44,7 @@ body {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 0.7rem;
 }
 
@@ -63,7 +59,6 @@ body {
 }
 
 main {
-    color: white;
     position: relative;
     top: 50px;
     width: 100%;
@@ -98,7 +93,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 95%;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .i {
@@ -112,4 +107,8 @@ main {
 
 .info li {
     margin-bottom: 5px;
+}
+
+.ii p {
+    font-weight: bold;
 }
